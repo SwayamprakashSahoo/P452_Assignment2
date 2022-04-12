@@ -91,7 +91,14 @@ main()
         X[i] = 0;
         for (j = 0; j < N; j++)
         {
-            X[i] = X[i] + pow(x[j], i);
+            if (i == 0)
+                X[i] = X[i] + x[j];
+            else if (i == 1)
+                X[i] = X[i] + x[j] * (2 * x[j] - 1);
+            else if (i == 2)
+                X[i] = X[i] + x[j] * (8 * x[j] * x[j] - 8 * x[j] + 1);
+            else if (i == 3)
+                X[i] = X[i] + x[j] * (32 * pow(x[j], 3) - 48 * x[j] * x[j] + 18 * x[j] - 1);
         }
     }
     //the normal augmented matrix
