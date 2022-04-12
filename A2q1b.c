@@ -129,8 +129,9 @@ main()
     printf("The polynomial fit using Chebyshev functions is given by the equation:\n");
     printMatrix(n + 1, n + 2, B);
     gaussEliminationLS(n + 1, n + 2, B, A);
+    printf("\nThe value of coefficients in order are :\n");
     for (i = 0; i <= n; i++)
     {
-        printf("%lfx^%d+", A[i], i);
+        printf("%lf\t", A[i]);
     }
 }
