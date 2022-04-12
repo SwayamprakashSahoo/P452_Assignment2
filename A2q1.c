@@ -84,7 +84,7 @@ main()
     }
     printf("Enter the degree of polynomial to be used:\n");
     scanf("%d", &n);
-    // an array of size 2*n+1 for storing N, Sig xi, Sig xi^2, ...., etc. which are the independent components of the normal matrix
+    
     double X[max];
     for (i = 0; i <= 2 * n; i++) 
     {
