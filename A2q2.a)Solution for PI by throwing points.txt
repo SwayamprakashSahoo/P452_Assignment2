@@ -17,3 +17,6 @@ Enter the seed for the number generator :
 
 The final value of pi using MonteCarlo method =
 3.153114
+-------------------------------------------------------------------------------------------------------
+Remarks :-
+The higher value of "a' and "m" seems to provide better result.
