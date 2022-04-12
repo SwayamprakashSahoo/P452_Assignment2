@@ -17,3 +17,5 @@ Enter the seed for the number generator :
 
 The final value of pi using MonteCarlo method to solve an integral =
 3.147316
+------------------------------------------------------------------------------------------
+Here too we observe that with higher value of "a" and "m" in the MLCG, we get a better result.
