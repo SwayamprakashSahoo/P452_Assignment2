@@ -1,0 +1,19 @@
+Enter the value of a for the number generator :
+65
+Enter the value of m for the number generator :
+1021
+Enter the seed for the number generator :
+86
+
+The final value of pi using MonteCarlo method to solve an integral =
+3.142220
+------------------------------------------------------------------------------------------
+Enter the value of a for the number generator :
+572
+Enter the value of m for the number generator :
+16381
+Enter the seed for the number generator :
+89
+
+The final value of pi using MonteCarlo method to solve an integral =
+3.147316

@@ -1,0 +1,9 @@
+Enter the value of a for the number generator :
+572
+Enter the value of m for the number generator :
+16381
+Enter the seed for the number generator :
+23
+
+The final volume of Steinmetz solid using MonteCarlo method =
+5.315040
